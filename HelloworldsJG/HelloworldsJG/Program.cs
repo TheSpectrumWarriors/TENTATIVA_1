@@ -34,12 +34,22 @@ namespace HelloworldsJG
                 Console.WriteLine("O joão é topo, alem de Diamond é topo, e tem " + IdadePessoa + " ANOS");
             }
 
-
-
             else
             {
                 Console.WriteLine("O " + NomePessoa.ToUpper() + " É GAY E TEM " + IdadePessoa + " ANOS.");
             }
+
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Agora que sabemos o teu nome, vamos fazer operações matemáticas! seu adotado!");
+            Console.ReadKey();
+            Console.Clear;
+            
+
+
+
+
+
+
 
             Console.ReadKey();
         }
