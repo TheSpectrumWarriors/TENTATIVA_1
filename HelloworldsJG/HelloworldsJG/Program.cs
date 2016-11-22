@@ -55,16 +55,26 @@ namespace HelloworldsJG
             Console.ReadKey();
             Console.Clear();
             #endregion
-           
+
             #region Calculadora 
             //Calculadora
             #region VariaveisDaCalculadora
 
-
+            double numero1;
+            double numero2;
+            double Soma;
             #endregion
 
-            Console
+            Console.Write("Introduza o primeiro valor: ");
+            numero1 = Convert.ToDouble(Console.ReadLine());
+            
+            Console.Write("Introduza o segundo valor: ");
+            numero2 = Convert.ToDouble(Console.ReadLine());
 
+            Soma = numero1 + numero2;
+
+            Console.WriteLine("A soma dos números é: " + Soma);
+            
             #endregion      
 
 
