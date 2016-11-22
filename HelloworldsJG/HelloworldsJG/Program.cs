@@ -23,9 +23,10 @@ namespace HelloworldsJG
             Console.WriteLine();
             Console.Write("Qual é a tua idade: ");
             IdadePessoa = Console.ReadLine();
-            #endregion
             Console.WriteLine();
+            #endregion
 
+            #region CondiçoesDoNome
             // If-Else
             if (NomePessoa == "Quico")
             {
@@ -42,14 +43,18 @@ namespace HelloworldsJG
             {
                 Console.WriteLine("O " + NomePessoa.ToUpper() + " É GAY E TEM " + IdadePessoa + " ANOS.");
             }
-
+            #endregion
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("Agora que sabemos o teu nome, vamos fazer operações matemáticas! seu adotado!");
+            Console.WriteLine("Enter para Continuar");
             Console.ReadKey();
-            Console.Clear;
-            
+            Console.Clear();
 
+            #region Calculadora 
+            //Calculadora
+            Console
 
+            #endregion      
 
 
 
