@@ -11,15 +11,19 @@ namespace HelloworldsJG
         static void Main(string[] args)
         {
             //Bora tentar criar um programa aos poucos e poucos em que se use todos os comandos que aprendemos
-            //assim funcionava como um tutorial para nos!
+            //assim funcioanva como um tutorial para nos!
+            #region Variaveis
             string NomePessoa;
             string IdadePessoa;
+            #endregion
 
+            #region Questões
             Console.Write("Qual o teu nome: ");
             NomePessoa = Console.ReadLine();
             Console.WriteLine();
             Console.Write("Qual é a tua idade: ");
             IdadePessoa = Console.ReadLine();
+            #endregion
             Console.WriteLine();
 
             // If-Else
