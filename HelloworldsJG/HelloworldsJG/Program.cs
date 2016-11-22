@@ -11,8 +11,7 @@ namespace HelloworldsJG
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Sou o joao gomes caralho");
-            Console.WriteLine("Sou o Quico caralho");
+            Console.WriteLine("Qual o teu nome?");
 
             Console.ReadKey();
         }
