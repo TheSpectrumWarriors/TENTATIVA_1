@@ -11,7 +11,7 @@ namespace HelloworldsJG
         static void Main(string[] args)
         {
             //Bora tentar criar um programa aos poucos e poucos em que se use todos os comandos que aprendemos
-            //assim funcioanva como um tutorial para nos!
+            //assim funcionava como um tutorial para nos!
             string NomePessoa;
             string IdadePessoa;
 
