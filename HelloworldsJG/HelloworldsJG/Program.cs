@@ -18,10 +18,10 @@ namespace HelloworldsJG
             #endregion
 
             #region Questões
-            Console.WriteLine("Qual o teu nome?");
+            Console.Write("Qual o teu nome: ");
             NomePessoa = Console.ReadLine();
             Console.WriteLine();
-            Console.WriteLine("Qual é a tua idade?");
+            Console.Write("Qual é a tua idade: ");
             IdadePessoa = Console.ReadLine();
             #endregion
             Console.WriteLine();
@@ -31,6 +31,15 @@ namespace HelloworldsJG
             {
                 Console.WriteLine("O QUICO É FIXE E TEM " + IdadePessoa + " ANOS.");
             }
+
+            else if (NomePessoa == "MaKuiLoP")
+            {
+
+                Console.WriteLine("O joão é topo, alem de Diamond é topo, e tem " + IdadePessoa + " ANOS");
+            }
+
+
+
             else
             {
                 Console.WriteLine("O " + NomePessoa.ToUpper() + " É GAY E TEM " + IdadePessoa + " ANOS.");
