@@ -12,14 +12,18 @@ namespace HelloworldsJG
         {
             //Bora tentar criar um programa aos poucos e poucos em que se use todos os comandos que aprendemos
             //assim funcioanva como um tutorial para nos!
+            #region Variaveis
             string NomePessoa;
             string IdadePessoa;
+            #endregion
 
+            #region Questões
             Console.WriteLine("Qual o teu nome?");
             NomePessoa = Console.ReadLine();
             Console.WriteLine();
             Console.WriteLine("Qual é a tua idade?");
             IdadePessoa = Console.ReadLine();
+            #endregion
             Console.WriteLine();
             Console.WriteLine("O " + NomePessoa.ToUpper() + " É GAY E TEM " + IdadePessoa + " ANOS.");
 
