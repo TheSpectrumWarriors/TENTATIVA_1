@@ -12,13 +12,16 @@ namespace HelloworldsJG
         {
 
             string NomePessoa;
+            string IdadePessoa;
 
             Console.WriteLine("Qual o teu nome?");
-
-
             NomePessoa = Console.ReadLine();
 
-            Console.WriteLine("O " + NomePessoa + " É GAY");
+            Console.WriteLine("Qual é a tua idade?");
+            IdadePessoa = Console.ReadLine();
+
+            Console.WriteLine("O " + NomePessoa + " É GAY E TEM " + IdadePessoa + " ANOS.");
+
             Console.ReadKey();
         }
     }
