@@ -15,10 +15,10 @@ namespace HelloworldsJG
             string NomePessoa;
             string IdadePessoa;
 
-            Console.WriteLine("Qual o teu nome?");
+            Console.Write("Qual o teu nome: ");
             NomePessoa = Console.ReadLine();
             Console.WriteLine();
-            Console.WriteLine("Qual é a tua idade?");
+            Console.Write("Qual é a tua idade: ");
             IdadePessoa = Console.ReadLine();
             Console.WriteLine();
 
