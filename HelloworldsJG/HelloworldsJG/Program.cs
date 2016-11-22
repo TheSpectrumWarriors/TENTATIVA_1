@@ -27,6 +27,15 @@ namespace HelloworldsJG
             {
                 Console.WriteLine("O QUICO É FIXE E TEM " + IdadePessoa + " ANOS.");
             }
+
+            else if (NomePessoa == "MaKuiLoP")
+            {
+
+                Console.WriteLine("O joão é topo, alem de Diamond é topo, e tem " + IdadePessoa + " ANOS");
+            }
+
+
+
             else
             {
                 Console.WriteLine("O " + NomePessoa.ToUpper() + " É GAY E TEM " + IdadePessoa + " ANOS.");
