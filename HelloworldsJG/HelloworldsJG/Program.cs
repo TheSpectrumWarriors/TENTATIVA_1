@@ -10,6 +10,10 @@ namespace HelloworldsJG
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Sou o joao gomes caralho");
+
+            Console.ReadKey();
         }
     }
 }
