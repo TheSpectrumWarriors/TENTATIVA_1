@@ -21,7 +21,15 @@ namespace HelloworldsJG
             Console.WriteLine("Qual é a tua idade?");
             IdadePessoa = Console.ReadLine();
             Console.WriteLine();
-            Console.WriteLine("O " + NomePessoa.ToUpper() + " É GAY E TEM " + IdadePessoa + " ANOS.");
+
+            if (NomePessoa == "Quico")
+            {
+                Console.WriteLine("O QUICO É FIXE E TEM " + IdadePessoa + " ANOS.");
+            }
+            else
+            {
+                Console.WriteLine("O " + NomePessoa.ToUpper() + " É GAY E TEM " + IdadePessoa + " ANOS.");
+            }
 
             Console.ReadKey();
         }
