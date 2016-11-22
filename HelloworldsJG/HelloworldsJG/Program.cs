@@ -46,7 +46,7 @@ namespace HelloworldsJG
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("Agora que sabemos o teu nome, vamos fazer operações matemáticas! seu adotado!");
             Console.ReadKey();
-            Console.Clear;
+            Console.Clear();
             
 
 
