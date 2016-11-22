@@ -12,6 +12,7 @@ namespace HelloworldsJG
         {
 
             Console.WriteLine("Sou o joao gomes caralho");
+            Console.WriteLine("Sou o Quico caralho");
 
             Console.ReadKey();
         }
