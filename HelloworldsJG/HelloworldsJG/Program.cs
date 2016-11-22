@@ -12,6 +12,7 @@ namespace HelloworldsJG
         {
             //Bora tentar criar um programa aos poucos e poucos em que se use todos os comandos que aprendemos
             //assim funcioanva como um tutorial para nos!
+            #region NomesDosUtilizadores
             #region Variaveis
             string NomePessoa;
             string IdadePessoa;
@@ -44,20 +45,27 @@ namespace HelloworldsJG
                 Console.WriteLine("O " + NomePessoa.ToUpper() + " É GAY E TEM " + IdadePessoa + " ANOS.");
             }
             #endregion
+            #endregion
+            
+            #region PassagemDosAdotados
+
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("Agora que sabemos o teu nome, vamos fazer operações matemáticas! seu adotado!");
             Console.WriteLine("Enter para Continuar");
             Console.ReadKey();
             Console.Clear();
-
+            #endregion
+           
             #region Calculadora 
             //Calculadora
+            #region VariaveisDaCalculadora
+
+
+            #endregion
+
             Console
 
             #endregion      
-
-
-
 
 
             Console.ReadKey();
