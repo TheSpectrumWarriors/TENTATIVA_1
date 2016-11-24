@@ -11,7 +11,7 @@ namespace HelloworldsJG
         static void Main(string[] args)
         {
             //Bora tentar criar um programa aos poucos e poucos em que se use todos os comandos que aprendemos
-            //assim funcioanva como um tutorial para nos!
+            //assim funciona como um tutorial para nós!
             #region NomesDosUtilizadores
             #region Variaveis
             string NomePessoa;
@@ -46,7 +46,7 @@ namespace HelloworldsJG
             }
             #endregion
             #endregion
-            
+
             #region PassagemDosAdotados
 
             Console.WriteLine("-----------------------------------");
@@ -62,21 +62,41 @@ namespace HelloworldsJG
 
             double numero1;
             double numero2;
-            double Soma;
+            double Total;
+            String operação;
             #endregion
 
             Console.Write("Introduza o primeiro valor: ");
             numero1 = Convert.ToDouble(Console.ReadLine());
-            
+
+            Console.Write("Introduza a operação: ");
+            operação = Console.ReadLine();
+
             Console.Write("Introduza o segundo valor: ");
             numero2 = Convert.ToDouble(Console.ReadLine());
 
-            Soma = numero1 + numero2;
-
-            Console.WriteLine("A soma dos números é: " + Soma);
+            Total = 0;
+            if (operação == "+") { 
+            Total = numero1 + numero2;
+               Console.WriteLine("A soma dos números é: " + Total);
+              }
             
-            #endregion      
+             if (operação == "-") { 
+            Total = numero1 + numero2;
+                Console.WriteLine("A Subtração dos números é: " + Total);
+             }
+             if (operação == "*") { 
+            Total = numero1 + numero2;
+                Console.WriteLine("A Multiplicação dos números é: " + Total);
+              }
+             if (operação == "/") { 
+            Total = numero1 + numero2;
+                Console.WriteLine("A Divisão dos números é: " + Total);
+              }
 
+
+          
+            #endregion      
 
             Console.ReadKey();
         }
