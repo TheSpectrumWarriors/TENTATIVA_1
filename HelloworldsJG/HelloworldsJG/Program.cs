@@ -76,23 +76,27 @@ namespace HelloworldsJG
             numero2 = Convert.ToDouble(Console.ReadLine());
 
             Total = 0;
-            if (operação == "+") { 
-            Total = numero1 + numero2;
-               Console.WriteLine("A soma dos números é: " + Total);
-              }
+
+
+            switch(operação)
+            {
+               case "+" : Total = numero1 + numero2;
+                    Console.WriteLine("A soma é" + Total);
+                    break;
+               case "-" : Total = numero1 - numero2;
+                    Console.WriteLine("A Divisao é", Total);
+                    break;
+               case "*" : Total = numero1 * numero2;
+                    Console.WriteLine("A multiplicação é", Total);
+                    break;
+                case "/": Total = numero1 / numero2;
+                    Console.WriteLine("A divisão é", Total);
+                    break; 
+
+
+
+            }
             
-             if (operação == "-") { 
-            Total = numero1 + numero2;
-                Console.WriteLine("A Subtração dos números é: " + Total);
-             }
-             if (operação == "*") { 
-            Total = numero1 + numero2;
-                Console.WriteLine("A Multiplicação dos números é: " + Total);
-              }
-             if (operação == "/") { 
-            Total = numero1 + numero2;
-                Console.WriteLine("A Divisão dos números é: " + Total);
-              }
 
 
           
