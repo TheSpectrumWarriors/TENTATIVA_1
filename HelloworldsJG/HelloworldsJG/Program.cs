@@ -84,23 +84,55 @@ namespace HelloworldsJG
                     Console.WriteLine("A soma é" + Total);
                     break;
                case "-" : Total = numero1 - numero2;
-                    Console.WriteLine("A Divisao é", Total);
+                    Console.WriteLine("A Divisao é" + Total);
                     break;
                case "*" : Total = numero1 * numero2;
-                    Console.WriteLine("A multiplicação é", Total);
+                    Console.WriteLine("A multiplicação é" + Total);
                     break;
                 case "/": Total = numero1 / numero2;
-                    Console.WriteLine("A divisão é", Total);
+                    Console.WriteLine("A divisão é" + Total);
                     break; 
 
 
 
             }
-            
 
 
-          
-            #endregion      
+            Console.WriteLine();
+
+            #endregion
+
+            #region  array! e for
+
+            // Array
+             
+            String[] lista;
+
+            lista = new string[3];
+
+            lista[0] = "Joao";
+            lista[1] = "Tiago";
+            lista[2] = "Rodrigo";
+
+            for (int i = 0 ; i<3; i++)
+            {
+
+                Console.Write(lista[i] + " ");
+
+
+
+            }
+
+
+
+
+            #endregion
+
+
+
+
+
+
 
             Console.ReadKey();
         }
