@@ -16,5 +16,28 @@ namespace Aventuras_DO_TIMTIM
         {
             InitializeComponent();
         }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void Abrir_Click(object sender, EventArgs e)
+        {
+
+           if ( openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                textBox1.Text = openFileDialog1.FileName;
+
+                pictureBox1.ImageLocation = openFileDialog1.FileName;
+
+                pictureBox1.Load();
+
+
+
+            }
+
+
+        }
     }
 }
