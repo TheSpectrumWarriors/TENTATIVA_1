@@ -44,7 +44,7 @@
             this.BT0 = new System.Windows.Forms.Button();
             this.BTIgual = new System.Windows.Forms.Button();
             this.BTLimpar = new System.Windows.Forms.Button();
-            this.mtbResultadao = new System.Windows.Forms.MaskedTextBox();
+            this.mtbResultado = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // BT7
@@ -55,6 +55,7 @@
             this.BT7.TabIndex = 3;
             this.BT7.Text = "7";
             this.BT7.UseVisualStyleBackColor = true;
+            this.BT7.Click += new System.EventHandler(this.BTNumero);
             // 
             // BT9
             // 
@@ -64,6 +65,7 @@
             this.BT9.TabIndex = 4;
             this.BT9.Text = "9";
             this.BT9.UseVisualStyleBackColor = true;
+            this.BT9.Click += new System.EventHandler(this.BTNumero);
             // 
             // BT8
             // 
@@ -73,6 +75,7 @@
             this.BT8.TabIndex = 5;
             this.BT8.Text = "8";
             this.BT8.UseVisualStyleBackColor = true;
+            this.BT8.Click += new System.EventHandler(this.BTNumero);
             // 
             // BTMais
             // 
@@ -82,6 +85,7 @@
             this.BTMais.TabIndex = 6;
             this.BTMais.Text = "+";
             this.BTMais.UseVisualStyleBackColor = true;
+            this.BTMais.Click += new System.EventHandler(this.BTOperador);
             // 
             // BTMenos
             // 
@@ -91,6 +95,7 @@
             this.BTMenos.TabIndex = 10;
             this.BTMenos.Text = "-";
             this.BTMenos.UseVisualStyleBackColor = true;
+            this.BTMenos.Click += new System.EventHandler(this.BTOperador);
             // 
             // BT5
             // 
@@ -100,6 +105,7 @@
             this.BT5.TabIndex = 9;
             this.BT5.Text = "5";
             this.BT5.UseVisualStyleBackColor = true;
+            this.BT5.Click += new System.EventHandler(this.BTNumero);
             // 
             // BT6
             // 
@@ -109,6 +115,7 @@
             this.BT6.TabIndex = 8;
             this.BT6.Text = "6";
             this.BT6.UseVisualStyleBackColor = true;
+            this.BT6.Click += new System.EventHandler(this.BTNumero);
             // 
             // BT4
             // 
@@ -118,6 +125,7 @@
             this.BT4.TabIndex = 7;
             this.BT4.Text = "4";
             this.BT4.UseVisualStyleBackColor = true;
+            this.BT4.Click += new System.EventHandler(this.BTNumero);
             // 
             // BTDividir
             // 
@@ -127,6 +135,7 @@
             this.BTDividir.TabIndex = 14;
             this.BTDividir.Text = "/";
             this.BTDividir.UseVisualStyleBackColor = true;
+            this.BTDividir.Click += new System.EventHandler(this.BTOperador);
             // 
             // BT2
             // 
@@ -136,6 +145,7 @@
             this.BT2.TabIndex = 13;
             this.BT2.Text = "2";
             this.BT2.UseVisualStyleBackColor = true;
+            this.BT2.Click += new System.EventHandler(this.BTNumero);
             // 
             // BT3
             // 
@@ -145,6 +155,7 @@
             this.BT3.TabIndex = 12;
             this.BT3.Text = "3";
             this.BT3.UseVisualStyleBackColor = true;
+            this.BT3.Click += new System.EventHandler(this.BTNumero);
             // 
             // BT1
             // 
@@ -154,7 +165,7 @@
             this.BT1.TabIndex = 11;
             this.BT1.Text = "1";
             this.BT1.UseVisualStyleBackColor = true;
-            this.BT1.Click += new System.EventHandler(this.button12_Click);
+            this.BT1.Click += new System.EventHandler(this.BTNumero);
             // 
             // BTMultiplicar
             // 
@@ -164,6 +175,7 @@
             this.BTMultiplicar.TabIndex = 18;
             this.BTMultiplicar.Text = "x";
             this.BTMultiplicar.UseVisualStyleBackColor = true;
+            this.BTMultiplicar.Click += new System.EventHandler(this.BTOperador);
             // 
             // BT0
             // 
@@ -173,6 +185,7 @@
             this.BT0.TabIndex = 17;
             this.BT0.Text = "0";
             this.BT0.UseVisualStyleBackColor = true;
+            this.BT0.Click += new System.EventHandler(this.BTNumero);
             // 
             // BTIgual
             // 
@@ -182,7 +195,7 @@
             this.BTIgual.TabIndex = 16;
             this.BTIgual.Text = "=";
             this.BTIgual.UseVisualStyleBackColor = true;
-            this.BTIgual.Click += new System.EventHandler(this.button15_Click);
+            this.BTIgual.Click += new System.EventHandler(this.BtIgual_Click);
             // 
             // BTLimpar
             // 
@@ -194,19 +207,19 @@
             this.BTLimpar.UseVisualStyleBackColor = true;
             this.BTLimpar.Click += new System.EventHandler(this.BTLimpar_Click);
             // 
-            // mtbResultadao
+            // mtbResultado
             // 
-            this.mtbResultadao.Location = new System.Drawing.Point(15, 22);
-            this.mtbResultadao.Name = "mtbResultadao";
-            this.mtbResultadao.Size = new System.Drawing.Size(269, 20);
-            this.mtbResultadao.TabIndex = 19;
+            this.mtbResultado.Location = new System.Drawing.Point(15, 22);
+            this.mtbResultado.Name = "mtbResultado";
+            this.mtbResultado.Size = new System.Drawing.Size(269, 20);
+            this.mtbResultado.TabIndex = 19;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(299, 224);
-            this.Controls.Add(this.mtbResultadao);
+            this.Controls.Add(this.mtbResultado);
             this.Controls.Add(this.BTMultiplicar);
             this.Controls.Add(this.BT0);
             this.Controls.Add(this.BTIgual);
@@ -247,7 +260,7 @@
         private System.Windows.Forms.Button BT0;
         private System.Windows.Forms.Button BTIgual;
         private System.Windows.Forms.Button BTLimpar;
-        private System.Windows.Forms.MaskedTextBox mtbResultadao;
+        private System.Windows.Forms.MaskedTextBox mtbResultado;
     }
 }
 
