@@ -49,6 +49,13 @@
             // 
             // BT7
             // 
+            this.BT7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT7.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BT7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BT7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BT7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BT7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BT7.ForeColor = System.Drawing.Color.Maroon;
             this.BT7.Location = new System.Drawing.Point(15, 60);
             this.BT7.Name = "BT7";
             this.BT7.Size = new System.Drawing.Size(75, 23);
@@ -59,6 +66,13 @@
             // 
             // BT9
             // 
+            this.BT9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT9.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BT9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BT9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BT9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BT9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BT9.ForeColor = System.Drawing.Color.Maroon;
             this.BT9.Location = new System.Drawing.Point(177, 60);
             this.BT9.Name = "BT9";
             this.BT9.Size = new System.Drawing.Size(75, 23);
@@ -69,6 +83,13 @@
             // 
             // BT8
             // 
+            this.BT8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT8.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BT8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BT8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BT8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BT8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BT8.ForeColor = System.Drawing.Color.Maroon;
             this.BT8.Location = new System.Drawing.Point(96, 60);
             this.BT8.Name = "BT8";
             this.BT8.Size = new System.Drawing.Size(75, 23);
@@ -79,6 +100,13 @@
             // 
             // BTMais
             // 
+            this.BTMais.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTMais.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BTMais.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BTMais.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BTMais.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BTMais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTMais.ForeColor = System.Drawing.Color.Maroon;
             this.BTMais.Location = new System.Drawing.Point(258, 60);
             this.BTMais.Name = "BTMais";
             this.BTMais.Size = new System.Drawing.Size(26, 23);
@@ -89,6 +117,13 @@
             // 
             // BTMenos
             // 
+            this.BTMenos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTMenos.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BTMenos.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BTMenos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BTMenos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BTMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTMenos.ForeColor = System.Drawing.Color.Maroon;
             this.BTMenos.Location = new System.Drawing.Point(258, 100);
             this.BTMenos.Name = "BTMenos";
             this.BTMenos.Size = new System.Drawing.Size(26, 23);
@@ -99,6 +134,13 @@
             // 
             // BT5
             // 
+            this.BT5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT5.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BT5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BT5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BT5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BT5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BT5.ForeColor = System.Drawing.Color.Maroon;
             this.BT5.Location = new System.Drawing.Point(96, 100);
             this.BT5.Name = "BT5";
             this.BT5.Size = new System.Drawing.Size(75, 23);
@@ -109,6 +151,13 @@
             // 
             // BT6
             // 
+            this.BT6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT6.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BT6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BT6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BT6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BT6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BT6.ForeColor = System.Drawing.Color.Maroon;
             this.BT6.Location = new System.Drawing.Point(177, 100);
             this.BT6.Name = "BT6";
             this.BT6.Size = new System.Drawing.Size(75, 23);
@@ -119,6 +168,13 @@
             // 
             // BT4
             // 
+            this.BT4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT4.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BT4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BT4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BT4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BT4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BT4.ForeColor = System.Drawing.Color.Maroon;
             this.BT4.Location = new System.Drawing.Point(15, 100);
             this.BT4.Name = "BT4";
             this.BT4.Size = new System.Drawing.Size(75, 23);
@@ -129,6 +185,13 @@
             // 
             // BTDividir
             // 
+            this.BTDividir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTDividir.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BTDividir.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BTDividir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BTDividir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BTDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTDividir.ForeColor = System.Drawing.Color.Maroon;
             this.BTDividir.Location = new System.Drawing.Point(258, 142);
             this.BTDividir.Name = "BTDividir";
             this.BTDividir.Size = new System.Drawing.Size(26, 23);
@@ -139,6 +202,13 @@
             // 
             // BT2
             // 
+            this.BT2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT2.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BT2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BT2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BT2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BT2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BT2.ForeColor = System.Drawing.Color.Maroon;
             this.BT2.Location = new System.Drawing.Point(96, 142);
             this.BT2.Name = "BT2";
             this.BT2.Size = new System.Drawing.Size(75, 23);
@@ -149,6 +219,13 @@
             // 
             // BT3
             // 
+            this.BT3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT3.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BT3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BT3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BT3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BT3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BT3.ForeColor = System.Drawing.Color.Maroon;
             this.BT3.Location = new System.Drawing.Point(177, 142);
             this.BT3.Name = "BT3";
             this.BT3.Size = new System.Drawing.Size(75, 23);
@@ -159,6 +236,13 @@
             // 
             // BT1
             // 
+            this.BT1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT1.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BT1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BT1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BT1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BT1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BT1.ForeColor = System.Drawing.Color.Maroon;
             this.BT1.Location = new System.Drawing.Point(15, 142);
             this.BT1.Name = "BT1";
             this.BT1.Size = new System.Drawing.Size(75, 23);
@@ -169,6 +253,13 @@
             // 
             // BTMultiplicar
             // 
+            this.BTMultiplicar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTMultiplicar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BTMultiplicar.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BTMultiplicar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BTMultiplicar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BTMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTMultiplicar.ForeColor = System.Drawing.Color.Maroon;
             this.BTMultiplicar.Location = new System.Drawing.Point(258, 182);
             this.BTMultiplicar.Name = "BTMultiplicar";
             this.BTMultiplicar.Size = new System.Drawing.Size(26, 23);
@@ -179,6 +270,13 @@
             // 
             // BT0
             // 
+            this.BT0.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BT0.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BT0.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BT0.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BT0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BT0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BT0.ForeColor = System.Drawing.Color.Maroon;
             this.BT0.Location = new System.Drawing.Point(96, 182);
             this.BT0.Name = "BT0";
             this.BT0.Size = new System.Drawing.Size(75, 23);
@@ -189,16 +287,30 @@
             // 
             // BTIgual
             // 
+            this.BTIgual.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTIgual.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BTIgual.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BTIgual.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BTIgual.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BTIgual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTIgual.ForeColor = System.Drawing.Color.Maroon;
             this.BTIgual.Location = new System.Drawing.Point(177, 182);
             this.BTIgual.Name = "BTIgual";
             this.BTIgual.Size = new System.Drawing.Size(75, 23);
-            this.BTIgual.TabIndex = 16;
+            this.BTIgual.TabIndex = 0;
             this.BTIgual.Text = "=";
             this.BTIgual.UseVisualStyleBackColor = true;
             this.BTIgual.Click += new System.EventHandler(this.BtIgual_Click);
             // 
             // BTLimpar
             // 
+            this.BTLimpar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BTLimpar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BTLimpar.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.BTLimpar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.BTLimpar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.BTLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTLimpar.ForeColor = System.Drawing.Color.Maroon;
             this.BTLimpar.Location = new System.Drawing.Point(15, 182);
             this.BTLimpar.Name = "BTLimpar";
             this.BTLimpar.Size = new System.Drawing.Size(75, 23);
@@ -209,6 +321,7 @@
             // 
             // mtbResultado
             // 
+            this.mtbResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtbResultado.Location = new System.Drawing.Point(15, 22);
             this.mtbResultado.Name = "mtbResultado";
             this.mtbResultado.Size = new System.Drawing.Size(269, 20);
@@ -236,8 +349,9 @@
             this.Controls.Add(this.BT8);
             this.Controls.Add(this.BT9);
             this.Controls.Add(this.BT7);
+            this.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculadora JG";
             this.ResumeLayout(false);
             this.PerformLayout();
 
