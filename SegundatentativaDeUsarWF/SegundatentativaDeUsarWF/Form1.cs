@@ -36,10 +36,10 @@ namespace SegundatentativaDeUsarWF
                 case "+": Total = Total + UltimoNumero;
                     break;
 
-                case "-": Total = Total + UltimoNumero;
+                case "-": Total = Total - UltimoNumero;
                     break;
 
-                case "x": Total = Total + UltimoNumero;
+                case "x": Total = Total * UltimoNumero;
                     break;
 
                 case "/": Total = Total / UltimoNumero;
